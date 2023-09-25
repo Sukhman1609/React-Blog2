@@ -1,0 +1,345 @@
+
+@media only screen and (min-width: 270px) and (max-width: 540px) {
+    body {
+      background-size: auto; 
+      overflow-x: hidden;
+     
+    }
+    
+   
+
+    hr{
+      width:340px;
+      margin-top: 20px;
+      margin-left: 20px;
+      background-color: lightgrey;
+    }
+  
+    .nav ul {
+      justify-content: center; 
+      margin-top: 20px;
+    }
+  
+    .menu-icon {
+      display: block; 
+    }
+  
+    .menu {
+      display: none; 
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .menu li {
+      margin: 10px 0;
+    }
+  
+    .mainImg {
+      margin-left: 0; 
+      margin-top: 20px; 
+    }
+  
+    .subImg {
+     display: none;
+    }
+
+    .subImg1 {
+      margin-left: 4px;
+      width: 350px; 
+      height: auto; 
+    }
+  
+    .image-text {
+      display: none;
+    }
+  
+    
+  
+    .subLatestPost {
+      width: 100%;
+      height: auto;
+            margin-left: 0; 
+    }
+  
+   
+    .theLatest{
+      /* border:2px solid black; */
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .theLatestArticles{
+      margin-left: -10px;
+    }
+
+    .mainLatest{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-left: 40px;
+    }
+
+    #subArticles.subLatest{
+      width: 400px;
+    }
+    .subTheLatest{
+      margin-bottom: 26px;
+      margin-left: -30px;
+      width: 350px;
+    }
+    .subTheLatestArticles{
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+    }
+    #Thel{
+      margin-top: 30px;
+    }
+    .latesthr{
+      margin-left: -30px;
+      width: 350px;
+    }
+    .mainSub{
+      display: flex;
+      flex-direction: column;
+    }
+.topPosts{
+  margin-left: 30px;
+}
+
+    .subTop{
+      /* border: 2px solid green; */
+      margin-top: 40px;
+    }
+
+    .tophr{
+      width: 300px; 
+      margin: 50px 0 70px 0px; 
+    }
+
+    .navv{
+      border:2px solid black;
+    }
+
+    .Navlink{
+      /* border: 4px solid saddlebrown; */
+      width:250px;
+    }
+    
+.topPosts{
+  margin-bottom: 120px;
+margin-top: -30px;
+}
+.add{
+  border: 2px solid black;
+  width: 250px;
+}
+    
+
+    .topPostName{
+      margin-left: 95px;
+      margin-top: -167px;
+      width: 180px;
+    }
+
+    .subLatestPost{
+      width: 150px;
+      height: 150px;
+      margin-left: -67px;
+    }
+    .Number{
+      margin-top: -40px;
+      margin-left: 200px;
+      width: 50px;
+    }
+    .add{
+      display: none;
+    }
+    .subLatest{
+      width: 350px;
+    }
+    .subTheLatestArticles{
+      width: 300px;
+    }
+    #Articles{
+      width: 350px;
+    }
+    
+    .TheLatestArticles{
+      width: 350px;
+      margin-left: 39px;
+    }
+    #Topp{
+      margin-left: 120px;
+    }
+    .Navlink{
+      width:40px;
+    }
+  }
+  @media (min-width: 750px) and (max-width: 1024px) {
+    body {
+      background-size: auto; 
+      /* height: 5100px; */
+      /* overflow-y: hidden; */
+    }
+
+    hr{
+      width:670px;
+      margin-top: 20px;
+      background-color: lightgrey;
+    }
+  
+    .nav ul {
+      justify-content: center; 
+      margin-top: 20px; 
+    }
+  
+    .menu-icon {
+      display: block; 
+    }
+  
+    .menu {
+      display: none; 
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .menu li {
+      margin: 10px 0; 
+    }
+  
+    .mainImg {
+      margin-left: 0; 
+      margin-top: 20px; 
+    }
+  
+    .subImg {
+     display: none;
+    }
+
+    .subImg1 {
+      margin-left: 40px;
+      width: 670px; 
+      height: auto; 
+     
+    }
+  
+    .image-text {
+      display: none;
+    }
+  
+    .subTheLatest{
+      width: 700px;
+      height: 660px;
+    }
+  .subLatest{
+    width: 700px;
+    height: 500px;
+  }
+  .TheLatest{
+    font-size: 45pt;
+  }
+    .subLatestPost {
+      width: 100%; 
+      height: auto; 
+      margin-left: 0; 
+    }
+  
+   
+    .theLatest{
+      /* border:2px solid black; */
+      margin-top: 10px;
+    }
+
+    .mainLatest{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      margin-left: 40px;
+    }
+
+    .subTheLatest{
+      margin-bottom: 60px;
+    }
+    .subTheLatestArticles{
+      display: flex;
+      flex-direction: column;
+      margin-left: 17px;
+    }
+    .thisArticles{
+      width: 700px;
+    }
+    #subArticles{
+      /* height: 500px; */
+      width: 390px;
+      /* margin-left: 20px; */
+    }
+    #Articles{
+      height:690px;
+      margin-left: 20px;
+    }
+    #Thel{
+      margin-top: 30px;
+    }
+    .latesthr{
+      margin-left: -30px;
+      width: 400px;
+    }
+    .mainSub{
+      display: flex;
+      flex-direction: column;
+    }
+    .subTop{
+ margin-bottom: -570px;
+ margin-top: 70px;
+}
+.tophr{
+  position: relative;
+  top: 120px;
+}
+    .subTop{
+      position: relative;
+      top:80px;
+      width: 200px;
+    }
+
+    .tophr{
+      width: 300px; 
+      margin: 50px 0 150px 0px; 
+    }
+
+    .latesthr{
+      width:770px
+    }
+
+    
+.topPosts{
+  margin-bottom: 120px;
+margin-top: -50px;
+}
+.add{
+  border: 2px solid black;
+  width: 250px;
+}
+    
+
+    .topPostName{
+      margin-left: 235px;
+      margin-top: -267px;
+      font-size: 20pt;
+      width: 380px;
+    }
+
+    .subLatestPost{
+      width: 250px;
+      height: 250px;
+      margin-left: -37px;
+    }
+    .Number{
+      margin-top: -40px;
+      margin-left: 540px;
+    }
+    .add{
+      display: none;
+    }
+  }

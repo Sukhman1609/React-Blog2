@@ -1,0 +1,293 @@
+body{
+  min-height: 745px;
+  margin: 0; 
+  padding: 0; 
+  /* background-image: linear-gradient(180deg,rgb(178, 148, 235), pink,rgb(252, 228, 232)); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+
+.nav li{
+  list-style: none;
+}
+
+ 
+.element:hover{
+  color: rgb(161, 158, 158);
+}
+
+.element{
+  color: black;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+  background-color: white;
+}
+
+h1{
+  /* font-style: italic; */
+ text-align: center;
+ /* text-align: center; */
+  /* margin-top: 80px; */
+}
+
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.new{
+  width:270px;
+  height: 60px;
+  margin-top: 80px;
+  font-size: 20pt;
+  border-radius: 35px;
+}
+
+table{
+  margin-top: 70px;
+  margin-left: 200px;
+  width: 1100px;
+  text-align: center;
+}
+
+.header1 {
+	writing-mode: tb-rl;
+	transform: rotate(180deg);
+	font-size: 1.3rem;
+	margin-right: 10px;
+}
+
+.header2 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+hr{
+  width:1300px;
+  margin-top: 20px;
+  background-color: lightgrey;
+}
+
+.mainImg{
+  display: flex;
+  margin-left: 87px;
+  margin-top: 40px;
+}
+.subImg{
+  width: 800px;
+  height: 470px;
+  border-radius: 10px;
+}
+.sub1{
+  padding: 10px;
+}
+.subImg1{
+  width: 400px;
+  height: 230px;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  margin-top: -7px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-text {
+  position: absolute;
+  top: 71%;
+  left: 10%;
+  right:12% ;
+  font-size: 27pt;
+  text-align: left;
+  width: 800px;
+  /* padding: 5px;  */
+ 
+}
+
+.theLatest{
+  /* border:2px solid black; */
+  margin-top: 40px;
+}
+
+.subLatest{
+  width:350px;
+  height: 220px;
+  background-size: cover;
+}
+
+.subTheLatest{
+  /* border: 2px solid black; */
+  width:300px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.mainLatest{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.End{
+  display: flex;
+  justify-content: space-around;
+  color: grey;
+  margin-top: -7px;
+}
+
+.unicode{
+  color: black;
+  font-size: 25px;
+}
+
+.end{
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+
+
+.TheLatest {
+  font-size: 25pt;
+  position: relative;
+  left: 55px;
+  display: inline-block;
+  position: relative;
+}
+
+.TheLatest::after {
+  content: "";
+  display: block;
+  width: 50%; 
+  border-bottom: 3px solid red; 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.linkHr{
+  display: none;
+}
+.subTheLatestArticles
+{
+  /* border: 2px solid black; */
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding-top: -800px; */
+}
+
+#Articles{
+  width: 760px;
+}
+
+.thisArticles{
+  /* border: 2px solid black; */
+  width: 347px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+#subArticles{
+  height: 250px;
+}
+/* .TheLatestArticles{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+} */
+
+.subTheLatest
+ {
+  margin-bottom: -160px; 
+  /* margin-top: -70px; */
+ }
+
+ #Thel{
+    margin-top: 200px;
+ }
+
+ .latesthr {
+  border: 2px solid rgb(209, 206, 206);
+  width: 700px; 
+  margin: -20px 0 15px 40px; 
+}
+
+.mainSub{
+  display: flex;
+  flex-direction: row;
+}
+
+.topPosts{
+  margin-left: 60px;
+  margin-top: 40px;
+}
+
+.subLatestPost {
+  /* border: 3px solid red; */
+  width:150px;
+  height: 150px;
+  margin-left: -100px;
+}
+
+.topPostName{
+  font-size: 13pt;
+  margin-left: -270px;
+  margin-top: -10px;
+  width: 350px;
+}
+
+#Top1{
+  
+  height: 100px;
+}
+
+.Number{
+  font-size: 58pt;
+  font-weight:200px;
+  color: rgb(187, 183, 183);
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
+.tophr{
+  border: 2px solid rgb(209, 206, 206);
+  width: 500px; 
+  margin: 80px 0 30px 40px; 
+}
+
+.subTheTop{
+  margin-bottom: -160px; 
+}
+
+
+.add{
+  /* border: 2px solid black; */
+  margin-top: 60px;
+  margin-left: -80px;
+ height: 1000px;
+}
+
+.addAd{
+  height: 1000px;
+  width: 500px;
+  margin-left: 100px;
+}
+
+#Topp{
+  margin-left: -120px;
+}
+
+
+
+
+
+
